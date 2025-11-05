@@ -173,3 +173,36 @@ footer {
 .admin-table-container tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+/* Halaman Detail Pesanan Admin */
+.order-detail-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.order-detail-container h3 {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.order-detail-container p {
+    line-height: 1.6;
+}
+
+/* Tombol Update Status */
+.button-update {
+    background-color: #ffc107; /* Warna kuning */
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.button-update:hover {
+    background-color: #e0a800;
+}
