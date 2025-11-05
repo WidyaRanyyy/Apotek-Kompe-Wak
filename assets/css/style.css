@@ -111,3 +111,18 @@ footer {
 .product-card button:hover {
     background-color: #218838;
 }
+
+/* Styling untuk Halaman Keranjang */
+.cart-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.cart-container th, .cart-container td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+.cart-container th {
+    background-color: #f2f2f2;
+}

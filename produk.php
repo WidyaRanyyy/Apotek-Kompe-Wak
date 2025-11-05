@@ -1,4 +1,8 @@
-<?php include 'includes/header.php'; ?>
+<?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+include 'includes/header.php'; ?>
 <?php include 'includes/db_connect.php'; // Panggil file koneksi ?>
 
 <h1 class="page-title">Katalog Produk Kami</h1>
