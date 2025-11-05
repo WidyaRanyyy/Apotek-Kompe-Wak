@@ -126,3 +126,16 @@ footer {
 .cart-container th {
     background-color: #f2f2f2;
 }
+
+/* Tombol Hapus di Keranjang */
+.button-hapus {
+    background-color: #dc3545; /* Warna merah */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-hapus:hover {
+    background-color: #c82333;
+}
