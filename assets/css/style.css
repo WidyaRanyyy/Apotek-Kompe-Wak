@@ -206,3 +206,61 @@ footer {
 .button-update:hover {
     background-color: #e0a800;
 }
+
+/* Styling Halaman Akun */
+.account-container {
+    display: flex;
+    gap: 30px;
+}
+
+.account-sidebar {
+    flex: 1; /* Lebar 1 bagian */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    height: fit-content;
+}
+
+.account-sidebar a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.account-sidebar a:hover,
+.account-sidebar a.active {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.account-content {
+    flex: 3; /* Lebar 3 bagian */
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.account-content form div {
+    margin-bottom: 15px;
+}
+
+.account-content label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.account-content input[type="text"],
+.account-content input[type="email"],
+.account-content textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Penting agar padding tidak merusak layout */
+}
